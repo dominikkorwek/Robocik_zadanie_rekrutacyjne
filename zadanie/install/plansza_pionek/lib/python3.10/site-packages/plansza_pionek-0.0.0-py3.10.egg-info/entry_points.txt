@@ -1,0 +1,3 @@
+[console_scripts]
+plansza_pionek = plansza_pionek.plansza_i_pionek:main
+ruch = plansza_pionek.ruch:main

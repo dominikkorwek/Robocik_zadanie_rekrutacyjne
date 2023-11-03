@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (plansza_pionek) JobQueued: {'identifier': 'plansza_pionek', 'dependencies': OrderedDict()}
+[0.000385] (plansza_pionek) JobStarted: {'identifier': 'plansza_pionek'}
+[0.095318] (-) TimerEvent: {}
+[0.198892] (-) TimerEvent: {}
+[0.302861] (-) TimerEvent: {}
+[0.406679] (-) TimerEvent: {}
+[0.513298] (-) TimerEvent: {}
+[0.617559] (-) TimerEvent: {}
+[0.720418] (-) TimerEvent: {}
+[0.828522] (-) TimerEvent: {}
+[0.930805] (-) TimerEvent: {}
+[0.948412] (plansza_pionek) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/plansza_pionek', 'build', '--build-base', '/home/dodo/zadanie/build/plansza_pionek/build', 'install', '--record', '/home/dodo/zadanie/build/plansza_pionek/install.log', '--single-version-externally-managed'], 'cwd': '/home/dodo/zadanie/src/plansza_pionek', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dodo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dodo', 'OLDPWD': '/home/dodo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1055', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dodo/zadanie/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dodo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dodo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/dodo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dodo-VirtualBox:@/tmp/.ICE-unix/1019,unix/dodo-VirtualBox:/tmp/.ICE-unix/1019', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a76be0da_ac83_49bb_b38c_f2ed62d7d879', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KBQ2D2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dodo/zadanie/build/plansza_pionek', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dodo/zadanie/build/plansza_pionek/prefix_override:/home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.119767] (-) TimerEvent: {}
+[1.120073] (plansza_pionek) StdoutLine: {'line': b'running egg_info\n'}
+[1.120223] (plansza_pionek) StdoutLine: {'line': b'creating ../../build/plansza_pionek/plansza_pionek.egg-info\n'}
+[1.137138] (plansza_pionek) StdoutLine: {'line': b'writing ../../build/plansza_pionek/plansza_pionek.egg-info/PKG-INFO\n'}
+[1.138705] (plansza_pionek) StdoutLine: {'line': b'writing dependency_links to ../../build/plansza_pionek/plansza_pionek.egg-info/dependency_links.txt\n'}
+[1.139386] (plansza_pionek) StdoutLine: {'line': b'writing entry points to ../../build/plansza_pionek/plansza_pionek.egg-info/entry_points.txt\n'}
+[1.139669] (plansza_pionek) StdoutLine: {'line': b'writing requirements to ../../build/plansza_pionek/plansza_pionek.egg-info/requires.txt\n'}
+[1.139767] (plansza_pionek) StdoutLine: {'line': b'writing top-level names to ../../build/plansza_pionek/plansza_pionek.egg-info/top_level.txt\n'}
+[1.139987] (plansza_pionek) StdoutLine: {'line': b"writing manifest file '../../build/plansza_pionek/plansza_pionek.egg-info/SOURCES.txt'\n"}
+[1.166460] (plansza_pionek) StdoutLine: {'line': b"reading manifest file '../../build/plansza_pionek/plansza_pionek.egg-info/SOURCES.txt'\n"}
+[1.167959] (plansza_pionek) StdoutLine: {'line': b"writing manifest file '../../build/plansza_pionek/plansza_pionek.egg-info/SOURCES.txt'\n"}
+[1.168586] (plansza_pionek) StdoutLine: {'line': b'running build\n'}
+[1.168675] (plansza_pionek) StdoutLine: {'line': b'running build_py\n'}
+[1.169306] (plansza_pionek) StdoutLine: {'line': b'creating /home/dodo/zadanie/build/plansza_pionek/build\n'}
+[1.169799] (plansza_pionek) StdoutLine: {'line': b'creating /home/dodo/zadanie/build/plansza_pionek/build/lib\n'}
+[1.169876] (plansza_pionek) StdoutLine: {'line': b'creating /home/dodo/zadanie/build/plansza_pionek/build/lib/plansza_pionek\n'}
+[1.170658] (plansza_pionek) StdoutLine: {'line': b'copying plansza_pionek/plansza_i_pionek.py -> /home/dodo/zadanie/build/plansza_pionek/build/lib/plansza_pionek\n'}
+[1.171073] (plansza_pionek) StdoutLine: {'line': b'copying plansza_pionek/__init__.py -> /home/dodo/zadanie/build/plansza_pionek/build/lib/plansza_pionek\n'}
+[1.171464] (plansza_pionek) StdoutLine: {'line': b'copying plansza_pionek/ruch.py -> /home/dodo/zadanie/build/plansza_pionek/build/lib/plansza_pionek\n'}
+[1.171944] (plansza_pionek) StdoutLine: {'line': b'running install\n'}
+[1.179505] (plansza_pionek) StderrLine: {'line': b'/home/dodo/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.179602] (plansza_pionek) StderrLine: {'line': b'!!\n'}
+[1.179659] (plansza_pionek) StderrLine: {'line': b'\n'}
+[1.179706] (plansza_pionek) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.179755] (plansza_pionek) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.179802] (plansza_pionek) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.179848] (plansza_pionek) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.179893] (plansza_pionek) StderrLine: {'line': b'\n'}
+[1.179939] (plansza_pionek) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.179985] (plansza_pionek) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.180045] (plansza_pionek) StderrLine: {'line': b'\n'}
+[1.180091] (plansza_pionek) StderrLine: {'line': b'!!\n'}
+[1.180135] (plansza_pionek) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.199484] (plansza_pionek) StdoutLine: {'line': b'running install_lib\n'}
+[1.213198] (plansza_pionek) StdoutLine: {'line': b'creating /home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek\n'}
+[1.214011] (plansza_pionek) StdoutLine: {'line': b'copying /home/dodo/zadanie/build/plansza_pionek/build/lib/plansza_pionek/plansza_i_pionek.py -> /home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek\n'}
+[1.214300] (plansza_pionek) StdoutLine: {'line': b'copying /home/dodo/zadanie/build/plansza_pionek/build/lib/plansza_pionek/__init__.py -> /home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek\n'}
+[1.214779] (plansza_pionek) StdoutLine: {'line': b'copying /home/dodo/zadanie/build/plansza_pionek/build/lib/plansza_pionek/ruch.py -> /home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek\n'}
+[1.215351] (plansza_pionek) StdoutLine: {'line': b'byte-compiling /home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek/plansza_i_pionek.py to plansza_i_pionek.cpython-310.pyc\n'}
+[1.216186] (plansza_pionek) StdoutLine: {'line': b'byte-compiling /home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek/__init__.py to __init__.cpython-310.pyc\n'}
+[1.216511] (plansza_pionek) StdoutLine: {'line': b'byte-compiling /home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek/ruch.py to ruch.cpython-310.pyc\n'}
+[1.217040] (plansza_pionek) StdoutLine: {'line': b'running install_data\n'}
+[1.219926] (-) TimerEvent: {}
+[1.229147] (plansza_pionek) StdoutLine: {'line': b'creating /home/dodo/zadanie/install/plansza_pionek/share/ament_index\n'}
+[1.229794] (plansza_pionek) StdoutLine: {'line': b'creating /home/dodo/zadanie/install/plansza_pionek/share/ament_index/resource_index\n'}
+[1.229987] (plansza_pionek) StdoutLine: {'line': b'creating /home/dodo/zadanie/install/plansza_pionek/share/ament_index/resource_index/packages\n'}
+[1.230071] (plansza_pionek) StdoutLine: {'line': b'copying resource/plansza_pionek -> /home/dodo/zadanie/install/plansza_pionek/share/ament_index/resource_index/packages\n'}
+[1.230136] (plansza_pionek) StdoutLine: {'line': b'copying package.xml -> /home/dodo/zadanie/install/plansza_pionek/share/plansza_pionek\n'}
+[1.230194] (plansza_pionek) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.243002] (plansza_pionek) StdoutLine: {'line': b'Copying ../../build/plansza_pionek/plansza_pionek.egg-info to /home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek-0.0.0-py3.10.egg-info\n'}
+[1.243927] (plansza_pionek) StdoutLine: {'line': b'running install_scripts\n'}
+[1.320194] (-) TimerEvent: {}
+[1.365298] (plansza_pionek) StdoutLine: {'line': b'Installing plansza_pionek script to /home/dodo/zadanie/install/plansza_pionek/lib/plansza_pionek\n'}
+[1.365520] (plansza_pionek) StdoutLine: {'line': b'Installing ruch script to /home/dodo/zadanie/install/plansza_pionek/lib/plansza_pionek\n'}
+[1.365865] (plansza_pionek) StdoutLine: {'line': b"writing list of installed files to '/home/dodo/zadanie/build/plansza_pionek/install.log'\n"}
+[1.392708] (plansza_pionek) CommandEnded: {'returncode': 0}
+[1.421531] (-) TimerEvent: {}
+[1.451116] (plansza_pionek) JobEnded: {'identifier': 'plansza_pionek', 'rc': 0}
+[1.461733] (-) EventReactorShutdown: {}

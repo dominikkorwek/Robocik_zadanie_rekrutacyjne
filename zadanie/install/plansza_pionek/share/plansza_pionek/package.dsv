@@ -1,0 +1,6 @@
+source;share/plansza_pionek/hook/pythonpath.ps1
+source;share/plansza_pionek/hook/pythonpath.dsv
+source;share/plansza_pionek/hook/pythonpath.sh
+source;share/plansza_pionek/hook/ament_prefix_path.ps1
+source;share/plansza_pionek/hook/ament_prefix_path.dsv
+source;share/plansza_pionek/hook/ament_prefix_path.sh

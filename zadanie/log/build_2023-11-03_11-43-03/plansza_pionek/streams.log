@@ -1,0 +1,35 @@
+[2.517s] Invoking command in '/home/dodo/zadanie/src/plansza_pionek': PYTHONPATH=/home/dodo/zadanie/build/plansza_pionek/prefix_override:/home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plansza_pionek build --build-base /home/dodo/zadanie/build/plansza_pionek/build install --record /home/dodo/zadanie/build/plansza_pionek/install.log --single-version-externally-managed
+[3.011s] running egg_info
+[3.040s] writing ../../build/plansza_pionek/plansza_pionek.egg-info/PKG-INFO
+[3.046s] writing dependency_links to ../../build/plansza_pionek/plansza_pionek.egg-info/dependency_links.txt
+[3.047s] writing entry points to ../../build/plansza_pionek/plansza_pionek.egg-info/entry_points.txt
+[3.047s] writing requirements to ../../build/plansza_pionek/plansza_pionek.egg-info/requires.txt
+[3.048s] writing top-level names to ../../build/plansza_pionek/plansza_pionek.egg-info/top_level.txt
+[3.115s] reading manifest file '../../build/plansza_pionek/plansza_pionek.egg-info/SOURCES.txt'
+[3.117s] writing manifest file '../../build/plansza_pionek/plansza_pionek.egg-info/SOURCES.txt'
+[3.118s] running build
+[3.118s] running build_py
+[3.119s] running install
+[3.174s] /home/dodo/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.174s] !!
+[3.174s] 
+[3.174s]         ********************************************************************************
+[3.174s]         Please avoid running ``setup.py`` directly.
+[3.174s]         Instead, use pypa/build, pypa/installer or other
+[3.175s]         standards-based tools.
+[3.175s] 
+[3.175s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.175s]         ********************************************************************************
+[3.175s] 
+[3.175s] !!
+[3.175s]   self.initialize_options()
+[3.188s] running install_lib
+[3.217s] running install_data
+[3.258s] running install_egg_info
+[3.288s] removing '/home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek-0.0.0-py3.10.egg-info' (and everything under it)
+[3.291s] Copying ../../build/plansza_pionek/plansza_pionek.egg-info to /home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages/plansza_pionek-0.0.0-py3.10.egg-info
+[3.294s] running install_scripts
+[3.656s] Installing plansza_pionek script to /home/dodo/zadanie/install/plansza_pionek/lib/plansza_pionek
+[3.657s] Installing ruch script to /home/dodo/zadanie/install/plansza_pionek/lib/plansza_pionek
+[3.659s] writing list of installed files to '/home/dodo/zadanie/build/plansza_pionek/install.log'
+[3.713s] Invoked command in '/home/dodo/zadanie/src/plansza_pionek' returned '0': PYTHONPATH=/home/dodo/zadanie/build/plansza_pionek/prefix_override:/home/dodo/zadanie/install/plansza_pionek/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plansza_pionek build --build-base /home/dodo/zadanie/build/plansza_pionek/build install --record /home/dodo/zadanie/build/plansza_pionek/install.log --single-version-externally-managed
